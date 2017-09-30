@@ -5,7 +5,7 @@ Menu gráfico para seleção e execução de jogos das NCC GameMachines do Núcl
  * [Cassiano Schneider](https://github.com/cassiandrei)
  * [Lucas Ferreira](https://github.com/LucasFerreiraDaSilva)
  * [Rafael Trindade](https://github.com/648trindade)
- * [Viníciu Dreifke](https://github.com/Vinniekun)
+ * [Vinícius Dreifke](https://github.com/Vinniekun)
 
 ## Objetivo
 Incentivar alunos dos cursos de Informática da UFSM a realizarem o desenvolvmento de jogos _open-source_, buscando trazer motivação para a busca de conhecimento extra-classe, gosto por programação e apreço por **Software Livre**.
@@ -33,6 +33,6 @@ Ela está sendo desenvolvida em C++11, com a biblioteca de renderização **SDL 
 Há o aproveitamento de trechos de código da engine criada pelo [Tim Jones](http://SDLTutorials.com) e um _header_ que possibilita a leitura de arquivos json, de [Nield Lohmann](https://github.com/nlohmann/json).
 
 ## Links úteis
-[Site da UFSM](http://ufsm.br)
-[Site da Informática UFSM](http://www.inf.ufsm.br)
-[Wiki do Informática UFSM](http://wiki.inf.ufsm.br/)
+ * [Site da UFSM](http://ufsm.br)
+ * [Site da Informática UFSM](http://www.inf.ufsm.br)
+ * [Wiki do Informática UFSM](http://wiki.inf.ufsm.br/)
