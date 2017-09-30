@@ -1,6 +1,8 @@
 # NCC-GameMachine
 Menu gráfico para seleção e execução de jogos das NCC GameMachines do Núcleo de Ciência de Computação (NCC) da Universidade Federal de Santa Maria (UFSN)
 
+![NCC-GameMachine](http://j.gifs.com/4Rm99k.gif)
+
 ## Equipe de Desenvolvimento
  * [Cassiano Schneider](https://github.com/cassiandrei)
  * [Lucas Ferreira](https://github.com/LucasFerreiraDaSilva)
