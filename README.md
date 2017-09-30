@@ -1,6 +1,12 @@
 # NCC-GameMachine
 Menu gráfico para seleção e execução de jogos das NCC GameMachines do Núcleo de Ciência de Computação (NCC) da Universidade Federal de Santa Maria (UFSN)
 
+## Equipe de Desenvolvimento
+ * [Cassiano Schneider](https://github.com/cassiandrei)
+ * [Lucas Ferreira](https://github.com/LucasFerreiraDaSilva)
+ * [Rafael Trindade](https://github.com/648trindade)
+ * [Viníciu Dreifke](https://github.com/Vinniekun)
+
 ## Objetivo
 Incentivar alunos dos cursos de Informática da UFSM a realizarem o desenvolvmento de jogos _open-source_, buscando trazer motivação para a busca de conhecimento extra-classe, gosto por programação e apreço por **Software Livre**.
 
@@ -19,9 +25,14 @@ Originalmente, dispunham somente de seu corpo (madeira), um monitor de tubo, bot
     * Jogos: Os mais diversos jogos criados pelos alunos da UFSM
 
 ## Jogos
-Esse repositório não conterá os jogos criados pelos alunos. Entretanto, é possível conferir um modelo de configuração de diretório para um jogo dentro da pasta games. O jogo usado como exemplo é o jogo **SuperTux** (visite seu site oficial aqui: http://supertux.org), e não encontra-se fisicamente nesse repositório: recomenda-se a instalação via apt-get no sistema alvo (`apt install supertux`)
+Esse repositório não conterá os jogos criados pelos alunos. Entretanto, é possível conferir um modelo de configuração de diretório para um jogo dentro da pasta games. O jogo usado como exemplo é o jogo [**SuperTux**](http://supertux.org), e não encontra-se fisicamente nesse repositório: recomenda-se a instalação via apt-get no sistema alvo (`apt install supertux`)
 
 ## Sobre esta aplicação
 Deixamos a licença GPL 3 nela. Então sinta-se livre pra clonar e modificar a seu próprio gosto, caso sinta vontade.
 Ela está sendo desenvolvida em C++11, com a biblioteca de renderização **SDL 2**.
-Há o aproveitamento de trechos de código da engine criada pelo Tim Jones (http://SDLTutorials.com) e um _header_ que possibilita a leitura de arquivos json, de Nield Lohmann (https://github.com/nlohmann/json).
+Há o aproveitamento de trechos de código da engine criada pelo [Tim Jones](http://SDLTutorials.com) e um _header_ que possibilita a leitura de arquivos json, de [Nield Lohmann](https://github.com/nlohmann/json).
+
+## Links úteis
+[Site da UFSM](http://ufsm.br)
+[Site da Informática UFSM](http://www.inf.ufsm.br)
+[Wiki do Informática UFSM](http://wiki.inf.ufsm.br/)
