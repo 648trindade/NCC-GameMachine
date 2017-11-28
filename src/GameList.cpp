@@ -21,6 +21,7 @@
 #include "engine/utils/Files.h"
 #include "engine/utils/Log.h"
 #include "engine/managers/Events.h"
+#include <cstdlib>
 #include <functional>
 #include <algorithm>
 
@@ -69,12 +70,18 @@ bool GameList::validate_game(std::string game){
  */
 void GameList::update(){
     if (Events::key_down){
-        if (Events::isPressed(KEY_SPACE))
+        if (Events::isPressed(KEY_r))
             reload();
         else if (Events::isPressed(KEY_DOWN))
             slider->goto_next(1);
         else if (Events::isPressed(KEY_UP))
             slider->goto_next(-1);
+        else if (Events::isPressed(KEY_SPACE)){
+            Log("%s", (System::GAME_FOLDER() + current_game + "/run.sh").c_str());
+            system((System::GAME_FOLDER() + current_game + "/run.sh").c_str());
+            SDL_RaiseWindow(System::get_window());
+            SDL_SetWindowInputFocus(System::get_window());
+        }
     }
 }
 

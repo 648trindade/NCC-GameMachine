@@ -242,7 +242,7 @@ void System::calc_FPS() {
         self.delta_time = SCREEN_TICKS_PER_FRAME;
     }
     self.fps = 1.f/(self.delta_time / 1000.f);
-#if 1
+#if 0
     if (self.delta_time > SCREEN_TICKS_PER_FRAME)
         Log("FPS: %f DELTA: %lf\n", self.fps, self.delta_time/1000.0);
 #endif
