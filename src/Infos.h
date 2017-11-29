@@ -32,8 +32,8 @@ private:
     std::map<std::string, Texture*> labels;
     std::map<std::string, std::map<std::string, Texture*>> texts;
 
-    const SDL_Rect gray_area = SDL_Rect{450,730,770,260};
-    const SDL_Rect image_area = SDL_Rect{457,100,750,600};
+    const SDL_Rect gray_area = {450,730,770,260};
+    const SDL_Rect image_area = {457,100,750,600};
 
     void free_textures();
     void load_infos(std::string);
@@ -47,7 +47,7 @@ private:
     TTF_Font* open_sans;
     TTF_Font* open_sans_bold;
     TTF_Font* open_sans_bold_big;
-    const SDL_Color font_color = SDL_Color{255,255,255,255};
+    const SDL_Color font_color = {255,255,255,255};
 
     const Point name_center = Point(835,765);
     const Point descr_origin = Point(460, 800);

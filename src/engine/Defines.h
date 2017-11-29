@@ -68,7 +68,7 @@ public:
 
     Point rotate_3d(Axis, double) const;
 
-    operator SDL_Point() const { return SDL_Point{(int)x, (int)y}; }
+    operator SDL_Point() const { return {(int)x, (int)y}; }
 };
 
 inline double deg2rad(double val){ return val*M_PI / 180.0; }

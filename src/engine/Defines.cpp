@@ -165,11 +165,11 @@ Rect& operator-= (Rect& a, const Point& b){
 }
 
 Point rect_topleft(const Rect& r){
-    return Point{r.x, r.y};
+    return Point(r.x, r.y);
 }
 
 Point rect_center(const Rect& r){
-    return Point{r.x + (r.w>>1), r.y + (r.h>>1)};
+    return Point(r.x + (r.w>>1), r.y + (r.h>>1));
 }
 
 bool operator<(const SDL_Rect& a, const SDL_Rect& b) {
@@ -177,5 +177,5 @@ bool operator<(const SDL_Rect& a, const SDL_Rect& b) {
 }
 
 SDL_Point operator-(SDL_Point const& a, SDL_Point const& b){
-    return SDL_Point{a.x -b.x, a.y - b.y};
+    return {a.x -b.x, a.y - b.y};
 }

@@ -31,7 +31,7 @@ private:
     };
     Texture* textures[3] = {nullptr, nullptr, nullptr};
     
-    const SDL_Rect origin = SDL_Rect{0, 724, 300, 300};
+    const SDL_Rect origin = {0, 724, 300, 300};
     const Point movement = Point(-60, 60);
     const double frame_time = 1.0/3;
     

@@ -49,7 +49,8 @@ void Background::render(){
     for (int x = 0; x < 6; x++)
         for (int y = 0; y < 5; y++){
             Point idx(x, -y);
-            SDL_Rect block_pos = SDL_Rect{0,0,300,300} + (t_pos + (idx * origin.w));
+            SDL_Rect block_pos = {0,0,300,300};
+            block_pos += (t_pos + (idx * origin.w));
             System::blit(textures[current_frame]->get(), textures[current_frame]->get_src_rect(), block_pos);
         }
 }

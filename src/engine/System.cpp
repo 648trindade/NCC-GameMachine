@@ -172,8 +172,8 @@ void System::resize_window(int w, int h) {
  */
 SDL_Point System::to_view_coord(SDL_Point p) {
     double scale = std::min(self.scaleX, self.scaleY);
-    Point screen_real_size = Point{WINDOW_WIDTH, WINDOW_HEIGHT} * scale;
-    Point offset = (Point{self.w_width, self.w_height} - screen_real_size)/2;
+    Point screen_real_size = Point(WINDOW_WIDTH, WINDOW_HEIGHT) * scale;
+    Point offset = (Point(self.w_width, self.w_height) - screen_real_size)/2;
 
     return (SDL_Point)(Point(p - offset) / scale);
 }

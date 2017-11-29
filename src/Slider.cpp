@@ -49,7 +49,7 @@ void Slider::reload(std::vector<std::string> games){
         names.push_back(game);
         render_order.push_back(game);
         positions[game] = Point(0,0,1);
-        dests[game] = SDL_Rect{0,0,300,300};
+        dests[game] = {0,0,300,300};
         logos[game] = new Texture();
         logos[game]->load(System::get_renderer(), System::GAME_FOLDER() + game + "/media/logo.png");
     }
@@ -88,7 +88,7 @@ void Slider::set_perspective(){
 
         topleft = (topleft * DISTANCE) / (topleft.z + DISTANCE - 1);
         bottomright = (bottomright * DISTANCE) / (bottomright.z + DISTANCE - 1);
-        dests[game] = SDL_Rect{
+        dests[game] = {
             (int)(topleft.x * DEFAULT_SIZE.x + CENTER_VIEWPORT.x),
             (int)(topleft.y * DEFAULT_SIZE.y + CENTER_VIEWPORT.y),
             (int)((bottomright.x - topleft.x) * DEFAULT_SIZE.x),

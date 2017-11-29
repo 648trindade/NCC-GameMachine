@@ -42,7 +42,7 @@ private:
     const Point BASE_VEC = Point(0, 0, 1);
     const Point SCALE = Point(0, 1.25, 1);
     const Point CENTER_VIEWPORT = Point(200,512);
-    const Point DEFAULT_SIZE = Point{300,300};
+    const Point DEFAULT_SIZE = Point(300,300);
     const double DISTANCE = -7;
 
     void ajust_game();
